@@ -6,7 +6,7 @@ echo "<tr><th>Multiplicacion</th></tr>";
 $numero = rand(1,10);
 for ($i=1; $i <=10 ; $i++) { 
     $mult = $numero * $i;
-    echo "<tr><th>$numero x $i = $mult</th></tr>";
+    echo "<tr><td>$numero x $i = $mult</td></tr>";
 }
 echo "</table>";
 
