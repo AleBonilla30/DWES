@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+</head>
+<body>
 <?php
 /* Un programa que genere 2 tiradas de 3 dados(simulando 2 jugadores). 
 Muestre las dos tiradas y me diga cual tiene mayor puntuación(sumando las tiradas) */
@@ -10,7 +18,7 @@ for ($i=0; $i < 3 ; $i++) {
     $totalTirada1 += $dado;
 
 }
-print "<h3>Has obtenido  $totalTirada1 puntos en la tirada 1</h3></br>";
+print "<h3>Has obtenido  $totalTirada1 puntos en la tirada 1</h3>";
 
 
 print "<h1>Tirada 2</h1>\n";
@@ -20,7 +28,7 @@ for ($i=0; $i < 3 ; $i++) {
     $totalTirada2 += $dado;
 
 }
-print "<h3>Has obtenido  $totalTirada2 puntos en la tirada 1</h3</br>";
+print "<h3>Has obtenido  $totalTirada2 puntos en la tirada 1</h3>\n";
 
 if ($totalTirada1 > $totalTirada2) {
     print "<h4>La tirada uno es la mas alta tiene un total de $totalTirada1 puntos.</h4><br>"; 
@@ -31,3 +39,7 @@ if ($totalTirada1 > $totalTirada2) {
 }
 
 ?>
+</body>
+</html>
+
+

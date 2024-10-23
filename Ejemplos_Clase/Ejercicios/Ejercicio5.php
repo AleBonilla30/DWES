@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+</head>
+<body>
 <?php
 /*Escribe un programa que muestre en dos columnas:  Numero -  cuadrado del numero
 De 10 números aleatorios entre 5 y 20. */
@@ -14,3 +22,7 @@ echo "</table>";
 
 
 ?>
+</body>
+</html>
+
+
