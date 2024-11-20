@@ -15,11 +15,11 @@
     <h1>Operaciones Aritméticas</h1>
     <form action="datos_operaciones.php" method="get">
         <label for="numero1">Introduzca el primer número:</label>
-        <input type="number"  name="numero1" require><br>
+        <input type="number"  name="numero1" require>
         <label for="numero2">Introduzca el segundo número:</label>
         <input type="number"  name="numero2" require>
 
-        <br><label >Seleccione la operación:</label><br>
+        <label >Seleccione la operación:</label>
         <div class="group-radio-container">
 
         <div class="group-radio">
