@@ -53,7 +53,7 @@
         }
         if ($resultado !== null) {
         
-            print "<p><strong>El resultado de los numeros $num1 y $num2 es: $resultado</strong></p>";
+            print "<p>El resultado de los numeros <strong>$num1 y $num2</strong> es: <strong>$resultado</strong></p>";
         }
     }
     ?>
