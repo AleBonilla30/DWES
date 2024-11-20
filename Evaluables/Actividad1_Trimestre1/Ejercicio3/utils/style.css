@@ -1,0 +1,97 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(135deg, #c39bd3 , #eed1bb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container{
+    max-width: 600px;
+    background-color: white;
+    padding: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow o.3s ease;
+    
+}
+.container:hover {
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+.container h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(138, 95, 180);
+    font-size: 35px;
+    font-weight: 400;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    color: #555;
+}
+input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+input:focus{
+    border-color: rgb(138, 95, 180);
+    box-shadow: 0 0 5px rgba(138,95,180,0.5);
+    outline: none;
+}
+
+input[type="number"]{
+    font-weight: 700;
+    color: rgb(87, 34, 137);
+}
+.group-radio-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+.group-radio{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+input[type="radio"]{
+    margin-right: 5px;
+    transform: scale(1.2);
+}
+
+input[type="submit"]{
+    margin-top: 20px;
+    background-color:rgb(165, 114, 215) ;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(204, 161, 246) ;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
