@@ -6,9 +6,9 @@ if (isset($_REQUEST['Enviar'])) {
     $resultado = null;
     
     if ($num1 == "" || $num2 == "") {
-        echo "<p>Por favor, complete todos los campos.</p>";
+        echo "< style='font-size: 25px; text-align: center;'>Por favor, complete todos los campos.</p>";
     }elseif (!is_numeric($num1) || !is_numeric($num2)) {
-        echo "<p>Por favor, ingrese valores númericos en ambos campos.</p>";
+        echo "<p style='font-size: 25px; text-align: center;'>Por favor, ingrese valores númericos en ambos campos.</p>";
     }else {
         switch ($operacion) {
             case 'suma':
@@ -24,16 +24,16 @@ if (isset($_REQUEST['Enviar'])) {
                 if ($num2 != 0) {
                     $resultado = $num1 / $num2;
                 }else {
-                    echo "<p>El numero introducido es $num2, por lo tanto no se puede dividir</p>";
+                    echo "<p style='font-size: 25px; text-align: center;'>El numero introducido es $num2, por lo tanto no se puede dividir</p>";
                 }
                 break;
             
             default:
-                echo "<p>Operacion no validad..</p>";
+                echo "<p style='font-size: 25px; text-align: center;'>Operacion no validad..</p>";
                 break;
         }
         if ($resultado !== null) {
-            print "<p><strong>El resultado de los numeros $num1 y $num2 es: $resultado</strong></p>";
+            print "<p style='font-size: 25px; text-align: center;'><strong>El resultado de los numeros $num1 y $num2 es: $resultado</strong></p>";
         }
     }
 
@@ -46,6 +46,54 @@ if (isset($_REQUEST['Enviar'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 1</title>
+    <style>
+        body{
+            font-family: self;
+            display: flex;
+            justify-content: center;
+            align-item: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            max-width: 500px;
+            height: 350px; 
+            margin: 150px;
+            align-item: center;
+            background-color: #f5f5f5;
+            padding: 30px;
+            border: 1px solid gainsboro;
+            border-radius: 20px;
+            box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+        }
+        label{
+            display: block;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+        input{
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 5px;
+            border-radius: 10px;
+            border: none;
+            box-sizing: border-box;
+        }
+        select{
+            width: 100%;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            border: 1px solid gainsboro;
+            padding: 10px;
+        }
+        input[type="submit"]{
+            margin-top: 30px;
+            background-color: green;
+            color: white;
+        }
+
+    </style>
 </head>
 <body>
     <!--Escribe un programa que sume, reste, multiplique y divida dos números introducidos por teclado.  -->
