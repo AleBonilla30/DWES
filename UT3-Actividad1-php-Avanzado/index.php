@@ -5,6 +5,8 @@ if (isset($_REQUEST['Enviar'])) {
     $operacion = trim(strip_tags($_REQUEST['operacion']));
     $resultado = null;
     
+
+    echo "<div style=' border: 5px dotted green; max-width: 400px;'>";
     if ($num1 == "" || $num2 == "") {
         echo "< style='font-size: 25px; text-align: center;'>Por favor, complete todos los campos.</p>";
     }elseif (!is_numeric($num1) || !is_numeric($num2)) {
@@ -33,9 +35,10 @@ if (isset($_REQUEST['Enviar'])) {
                 break;
         }
         if ($resultado !== null) {
-            print "<p style='font-size: 25px; text-align: center;'><strong>El resultado de los numeros $num1 y $num2 es: $resultado</strong></p>";
+            print "<p style='font-size: 25px; text-align: center;'>El resultado de la $operacion de los numeros <strong>$num1 y $num2 es: $resultado</strong></p>";
         }
     }
+    echo "</div>";
 
 
 }else{

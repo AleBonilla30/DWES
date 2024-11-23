@@ -1,9 +1,10 @@
 <?php
+
 if (isset($_REQUEST['enviar'])) {
     $nombre= trim(strip_tags($_REQUEST['nombre']));
     $num = trim(strip_tags($_REQUEST['numero']));
     $resultado = 0;
-
+    echo "<div style=' border: 5px dotted #c39bd3; max-width: 400px;'>";
     if ($nombre == "" || $num == "") {
         echo "<p style='text-align: center; font-size: 30px;'>Por favor, rellena los campos.</p>";
     }else{
@@ -13,6 +14,7 @@ if (isset($_REQUEST['enviar'])) {
         $resultado = $num / 1024;
         echo "<p style='text-align: center; font-size: 30px'>El resultado de la conversion de $num Kb es: <strong>$resultado Mb</strong></p>";
     }
+    echo "</div>";
 }else{
 ?>
 

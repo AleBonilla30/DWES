@@ -4,12 +4,12 @@ if (isset($_REQUEST['enviar'])) {
     $nombre = trim(strip_tags($_REQUEST['nombre']));
     $horas = trim(strip_tags($_REQUEST['horas']));
     $resultado = null;
-
+    echo "<div style=' border: 5px dotted #56da5c; max-width: 400px;'>";
     echo "<p style='text-align: center; font-size: 25px; ' >Bienvenido, $nombre tu calculo es el siguiente</p>";
     $resultado = $horas * 12;
 
     echo "<p style='text-align: center; font-size: 25px;'>El salario semanal que recibes es de: <strong>$resultado</strong></p>";
-    
+    echo "</div>";
 
 
 }else {
