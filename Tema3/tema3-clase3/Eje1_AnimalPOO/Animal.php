@@ -5,14 +5,14 @@ class animal {
 
     public function __construct($a) {
         if (isset($a)) {
-            $this->sexo = "macho";
-        }else{
             $this->sexo = $a;
+        }else{
+            $this->sexo = "macho";
         }
     }
 
     public function __toString() {
-        echo "Sexo: $this->sexo";
+        return "Sexo: $this->sexo";
     }
 
     public function getSexo() {

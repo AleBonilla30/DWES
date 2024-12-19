@@ -4,7 +4,7 @@ class Canario extends Ave {
     private $color;
 
     public function __construct($a, $b) {
-        parent:: __construct($a);
+        parent::__construct($a);
 
         if (isset($b)) {
             $this->color = $b;
@@ -14,7 +14,7 @@ class Canario extends Ave {
     }
 
     public function __toString(){
-        return parent:: __toString()."<br>Color: $this->color";
+        return parent::__toString()."<br>Color: $this->color";
     }
 
     public function canta(){

@@ -9,7 +9,7 @@ class Pinguino extends Ave {
     }
 
     public function aseate() {
-        parent:: aseate().", a los pinguinos nos gusta asearnos";
+        return parent::aseate(). ", a los pinguinos nos gusta asearnos";
     }
 
     public function vuela() {

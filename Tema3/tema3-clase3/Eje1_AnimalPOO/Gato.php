@@ -13,7 +13,7 @@ final class Gato extends Animal {
     }
 
     public function __toString(){
-        parent::__toString()."<br>Raza: $this->raza";
+        return parent::__toString(). "<br>Raza: $this->raza";
     }
 
     public function maulla(){

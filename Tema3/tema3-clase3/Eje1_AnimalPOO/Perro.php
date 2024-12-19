@@ -7,7 +7,7 @@ class Perro extends Mamifero {
     private $raza;
 
     public function __construct($a, $r) {
-        parent: __construct($a);
+        parent::__construct($a);
         if (isset($r)) {
             $this->raza = $r;
         }else {
@@ -16,7 +16,7 @@ class Perro extends Mamifero {
     }
 
     public function __toString(){
-        parent::__toString()."<br>Raza: $this->raza";
+        return parent::__toString()."<br>Raza: $this->raza";
     }
 
     public function ladra(){

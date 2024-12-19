@@ -24,7 +24,8 @@
     echo $lisa. "<br>";
     echo $silvestre. "<br><hr>";
     
-    $miLoro = new Ave();
+    $miLoro = new Ave("macho");
+    echo $miLoro->ponHuevo()."<br>";
     echo $miLoro->aseate()."<br>";
     echo $miLoro->vuela()."<br><hr>";
 
