@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
     <title>Agenda</title>
 </head>
 <body>
@@ -15,9 +16,9 @@
             <label for="apellido1">Primer apellido:</label>
             <input type="text" name="apellido1">
             <input type="submit" value="Buscar" name="buscar">
+            <a href="index.php">Volver a página de inicio</a>
         </form>
-    </div>
-    <?php
+        <?php
     if (isset($_REQUEST['buscar'])) {
 
         $nombre = trim(strip_tags($_REQUEST['nombre']));
@@ -60,5 +61,7 @@
     
     }
     ?>
+    </div>
+    
 </body>
 </html>

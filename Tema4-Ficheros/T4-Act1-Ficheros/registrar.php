@@ -33,6 +33,7 @@ if (isset($_REQUEST['registrar'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
     <title>Registro de usuario</title>
 </head>
 <body>
@@ -50,7 +51,7 @@ if (isset($_REQUEST['registrar'])) {
         <label for="email">Correo electrónico:</label>
         <input type="email" name="email" required>
         <input type="submit" value="Registrar" name="registrar">
-        <a href="index.php">Volver al menú</a>
+        <a href="index.php">Volver a página de inicio</a>
     </form>
     <div>
         <?php
