@@ -1,5 +1,4 @@
 Alejandra,Gonzalez,Bonilla,697700747,alejandrita_lis309@hotmail.com
 Jorge,Amor,Morales,637564123,jorge@gmail.com
-Jorge,Amor,Morales,637564123,jorge@gmail.com
 Damaris,Gonzalez,Bonilla,678954321,damis@gmail.com
 Alma,Bonilla,De Gonzalez,34546565767,alma@gmail.com
