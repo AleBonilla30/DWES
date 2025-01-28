@@ -1,0 +1,4 @@
+
+Alejandra Gonzalez;calle antonio leyva;Iphone-11;5;2025-01-28 09:03:40
+Jorge;calle antonio leyva;Reloj;2;2025-01-28 09:05:58
+Damaris;Calle begoña;Iphone-11;1;2025-01-28 09:06:20
