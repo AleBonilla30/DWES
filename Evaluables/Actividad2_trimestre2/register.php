@@ -102,7 +102,7 @@ $result = mysqli_query($conn, $sql);
                 <?php
 
                  //clave de usuario admin 12345
-                // clave jorge 1234
+                // clave jorge 123456
                 //clave alma 123456A
                 //clave damaris 12345
 

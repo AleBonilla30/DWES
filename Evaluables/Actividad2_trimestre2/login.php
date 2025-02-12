@@ -114,7 +114,7 @@ mysqli_close($conn);
                             <li><a class="dropdown-item navGenerico" href="register.php">Registro</a></li>
                             <li><a class="dropdown-item navGenerico" href="login.php">Iniciar sesión</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item navGenerico" href="list.php">Listar pisos</a></li>
+                            <li><a class="dropdown-item navGenerico" href="listaPiso.php">Listar pisos</a></li>
                             </ul>
                         </li>
                         
