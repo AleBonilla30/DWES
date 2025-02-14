@@ -91,7 +91,7 @@ $result = mysqli_query($conn, $sql);
                         while ($row = mysqli_fetch_assoc($result)) {
                             echo "<option value='{$row['id']}'>{$row['nombre']}</option>";
                         }
-                        mysqli_close($conn);
+                        
                         ?>
                     </select>
                 <button type="submit" class="btn w-100 btnIndex mt-5">Registrarse</button>
