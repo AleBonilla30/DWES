@@ -7,6 +7,34 @@
 </head>
 <body>
     <h1>PDO Ejemplos mysql</h1>
-    <p>?</p>
+    <main>
+        <?php
+        require_once "biblioteca.php";
+
+        conectaDb();
+
+        /* borraTodo(); */
+
+        insertaRegistro("Juan", "Garcia");
+
+        cuentaRegistros();
+
+        muestraRegistros();
+
+        modificaRegistro(1, "Paco", "Luis");
+
+        muestraRegistros();
+
+        insertaRegistro("Ana", "Nigerio");
+
+        cuentaRegistros();
+
+        muestraRegistros();
+
+        borraRegistros([1 => "on"]);
+
+        muestraRegistros();
+        ?>
+</main>
 </body>
 </html>

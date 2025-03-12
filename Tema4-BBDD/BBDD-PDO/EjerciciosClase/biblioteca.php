@@ -9,7 +9,7 @@ $cfg['tablaPersonas'] = 'personas'; //nombre de la tabla personas
 
 //MYSQL: funcion de conexion con la base de datos
 
-function conectaBb() {
+function conectaDb() {
     global $cfg;
     try {
         $tmp = new PDO("mysql:host=$cfg[mysqlHost]; dbname=$cfg[mysqlDatabase]; charset=utf8mb4", $cfg["mysqlUser"], $cfg["mysqlPassword"]);
