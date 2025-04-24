@@ -10,6 +10,9 @@
     <script src="https://kit.fontawesome.com/7ff4a0fa37.js" crossorigin="anonymous"></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="utils/css/style.css">
     <title>Buscar Evento</title>
 </head>
