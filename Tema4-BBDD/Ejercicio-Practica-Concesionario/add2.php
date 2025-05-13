@@ -15,7 +15,7 @@
         $conn = mysqli_connect('localhost', 'root', '', 'concesionario');
 
         if (!$conn) {
-            die('Conexión fallida.' . mysqli_affected_rows());
+            die('Conexión fallida.' .  mysqli_connect_error());
         }
         
         $marca = mysqli_real_escape_string($conn, $_POST['marca']);
